@@ -137,3 +137,9 @@ form .field input[type="submit"]:active{
 #botonAgregar:active {
   font-size: 18.5px;
 }
+
+body img {
+  width: 220px;
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
