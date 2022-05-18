@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv = "X-UA-Compatible" content = "IE-borde, cromo = 1" />
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="style.css">
+    <title>U-HEROE</title>
+</head>
+<body>
+    <div class="wrapper">
+        <div class="title">
+           Datos de la<br>
+           asignatura
+        </div>
+
+        <form>
+            <div class="field">
+                    <input type="text" id="nombreDeLaMateria">
+                    <label>Nombre de la materia</label>
+            </div>
+            <div class="field">
+                    <input type="text" id="notas"><br>
+                    <label>Numero de notas</label>                    
+            </div>
+            <div class="field">
+                <a href="#" id="botonAgregar" onclick="addFields()">Agregar</a>
+            </div>
+            <div id="container">
+                    
+            </div>
+            <br>
+            <div class="field">
+                <input type="submit" value="Calcular" onclick="calcular()">
+            </div>
+            <br>
+            <div id="resultado">
+    
+            </div>
+        </form>
+    </div>
+    <script src="main.js"></script>
+</body>
+</html>
